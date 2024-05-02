@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.top {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* background: url(./yup2.jpg); */
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.127), rgba(0, 0, 0, 0.1)), url(./yup2.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+}
+
+/* #BF7165 */
+#logo {
+  color: #DAC0C1;
+}
+
+#li {
+  color: #f3d6d7;
+}
+
+#btn {
+  color: #DAC0C1;
+
+}
+
+.gape {
+  font-family: serif;
+  font-style: oblique;
+  word-spacing: 0.2em;
+  height: 400px;
+  color: white
+
+}
+
+.box1 {
+  font-weight:lighter;
+  font-style: italic;
+  border: #dacdcc double 2px;
+  border-radius: 10%;
+  width: 150px;
+  color: whitesmoke;
+  height: 100px;
+  font-size: larger;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.box2 {
+  font-weight:lighter;
+  font-style: italic;
+  font-size: larger;
+  color: whitesmoke;
+  border: #e4d4d2 double 2px;
+  border-radius: 10%;
+  width: 150px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.2);
+}
