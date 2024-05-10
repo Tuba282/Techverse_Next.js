@@ -1,0 +1,664 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet');
+
+.main {
+    /* background-image: url("./body.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(31, 74, 71, 0.909), rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.128)), url('./body2.jpg');
+}
+
+.sindh {
+    /* background-image: url("./body.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(14, 13, 13, 0.395), rgba(15, 16, 15, 0.523), rgba(3, 3, 3, 0.381)), url('./Sindh/sindhi.jpg');
+}
+
+.punjab {
+    /* background-image: url("./body.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(14, 13, 13, 0.374), rgba(15, 16, 15, 0.557), rgba(3, 3, 3, 0.406)), url('./Panjab/punjab.webp');
+}
+
+.kpk {
+    /* background-image: url("./body.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(14, 13, 13, 0.422), rgba(15, 16, 15, 0.541), rgba(3, 3, 3, 0.386)), url('./KPK/kpk.jpg');
+}
+
+.balochistan {
+    /* background-image: url("./body.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(14, 13, 13, 0.26), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url('./Balochistan/balochistan.jpg');
+}
+
+.div1 {
+    color: rgb(255, 255, 255);
+    font-family: 'cursive';
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.h1 {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: 'Inconsolata', 'Droid Sans', serif;
+    font-weight: bold;
+
+}
+
+.p1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.731);
+    color: rgba(255, 255, 255, 0.97);
+    font-family: "serif";
+
+}
+
+.btn {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.city {
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.97);
+    font-family: "serif";
+
+    width: 120px;
+    height: 50px;
+
+}
+/* quetta css */
+.queta {
+    /* width: 700px; */
+    height: 1200px;
+    margin-top: 20px;
+    font-family: 'cursive';
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+    /* background-image: url(./Balochistan/Quetta/quetta\ 1.jpg); */
+    background-color: #7493A2;
+}
+
+#one {
+    width: 300px;
+    height: 400px;
+    /* background-image: url(./Balochistan/Quetta/quetta\ 3.jpg); */
+    background-image: linear-gradient(to right, rgba(14, 13, 13, 0.402), rgba(15, 16, 15, 0.42), rgba(3, 3, 3, 0.279)), url(./Balochistan/Quetta/quetta\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+    
+}
+
+#one:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#two {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Balochistan/Quetta/quetta\ 2.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#two:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#three {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Balochistan/Quetta/quetta\ 3.jpg);
+    
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#three:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#four {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Balochistan/Quetta/quetta\ 4.jpg);
+    transition: all ease 400ms;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+}
+
+#four:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#five {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Balochistan/Quetta/quetta\ 5.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#five:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#six {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Balochistan/Quetta/quetta\ 6.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#six:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#seven {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Balochistan/Quetta/quetta\ 7.jpg);
+    background-size: cover;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#seven:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#eight {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Balochistan/Quetta/quetta\ 8.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#eight:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+.cap-city{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.97);
+    font-family: "serif";
+    
+    width: 165px;
+    height: 50px;
+}
+/* lahore css */
+.lahore{
+    background-color: rgba(223, 130, 130, 0.97);
+    font-family: 'cursive';
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+}
+#_1 {
+    width: 300px;
+    height: 400px;
+    /* background-image: url(./Balochistan/Quetta/quetta\ 3.jpg); */
+    background-image:url(./Panjab/Lahore/lahore\ 1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+
+}
+
+#_1:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_2 {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Lahore/lahore\ 2.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_2:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_3 {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Lahore/lahore\ 3.webp);
+
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_3:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_4 {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Lahore/lahore\ 4.jpg);
+    transition: all ease 400ms;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+}
+
+#_4:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_5 {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Lahore/lahore\ 5.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_5:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_6 {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Lahore/lahore\ 6.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_6:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_7 {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Lahore/lahore\ 7.jpg);
+    background-size: cover;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_7:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_8 {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Lahore/lahore\ 8.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_8:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+/* islamabad css */
+.islamabad{
+    background-color: rgba(74, 167, 228, 0.97);
+    font-family: 'cursive';
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+}
+#_1_ {
+    width: 300px;
+    height: 400px;
+    /* background-image: url(./Balochistan/Quetta/quetta\ 3.jpg); */
+    background-image:url(./Panjab/Islamabad/islama\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+
+}
+
+#_1_:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_2_ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Islamabad/islama\ 2.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_2_:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_3_ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Islamabad/islama\ 3.jpg);
+
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_3_:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_4_ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Islamabad/islama\ 4.jpg);
+    transition: all ease 400ms;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+}
+
+#_4_:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_5_ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Islamabad/islama\ 5.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_5_:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_6_ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Islamabad/islama\ 6.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_6_:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_7_ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Islamabad/islama\ 7.jpg);
+    background-size: cover;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_7_:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_8_ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Panjab/Islamabad/islama\ 8.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_8_:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+/* karachi css */
+.karachi_city{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.97);
+    font-family: "serif";
+    padding-top: 2px;
+    width: 134px;
+    height: 50px;
+}
+.karachi{
+    background-color: rgba(89, 39, 25, 0.97);
+    font-family: 'cursive';
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+}
+#_1__ {
+    width: 300px;
+    height: 400px;
+    /* background-image: url(./Balochistan/Quetta/quetta\ 3.jpg); */
+    background-image:url(./Sindh/Karachi/karachi\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+
+}
+
+#_1__:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_2__ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Sindh/Karachi/karachi\ 2.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_2__:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_3__ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Sindh/Karachi/karachi\ 11.jpg);
+
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_3__:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_4__ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Sindh/Karachi/karachi\ 10.jpg);
+    transition: all ease 400ms;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+}
+
+#_4__:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_5__ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Sindh/Karachi/karachi\ 6.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_5__:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_6__ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Sindh/Karachi/karachi\ 7.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_6__:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_7__ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Sindh/Karachi/karachi\ 8.jpg);
+    background-size: cover;
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_7__:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
+
+#_8__ {
+    width: 300px;
+    height: 400px;
+    background-image: url(./Sindh/Karachi/karachi\ 5.jpg);
+    border-radius: 13px;
+    border: 8px double rgb(255, 255, 255);
+    transition: all ease 400ms;
+}
+
+#_8__:hover {
+    background-position: center;
+    transform: scale(1.2);
+    width: 800px;
+    height: 400px;
+}
