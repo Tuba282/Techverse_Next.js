@@ -1,0 +1,420 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Macondo&family=Satisfy&display=swap');
+
+* {
+  font-family: "Briem Hand";
+}
+
+.nav {
+  width: 100%;
+  height: 160px;
+}
+
+.logo {
+  background-image: url('./logo.png');
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+
+.side_btn {
+  width: auto;
+  height: 50px;
+  border: 3px solid #65A30D;
+  border-radius: 13px;
+
+}
+
+.side_btn:hover {
+  background-color: #65A30D;
+  color: white;
+}
+
+.hero {
+  width: 100%;
+  height: 600px;
+  margin-top: -55px;
+  background-image: url(./body1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 {
+  background-image: url(./m.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.img2 {
+  background-image: url(./v.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.img3 {
+  width: 100%;
+  height: 600px;
+  background-image: url(./heirarchey.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.foot1 {
+  background-image: url('./footer_logo.png');
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+/* About CSS */
+
+.about_hero {
+  margin-top: -60px;
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.395), rgba(15, 16, 15, 0.523), rgba(3, 3, 3, 0.381)), url('./About/who\ we\ are.avif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.team {
+  width: 100%;
+  height: 600px;
+  background-image: url('./About/team.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+
+.team_text {
+  color: #6A764D;
+}
+
+.about_core_value_img {
+  float: right;
+  width: 400px;
+  height: 400px;
+  background-image: url('./About/core_values.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.focus_areas_img {
+
+  width: 100%;
+  height: 600px;
+  background-image: url('./About/approach_development_img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.explore_side_btn {
+  width: 100px;
+  height: 50px;
+  border: 3px solid #65A30D;
+  border-radius: 13px;
+
+}
+
+.explore_side_btn:hover {
+  background-color: #65A30D;
+  color: white;
+}
+
+/* Explore page css */
+.partners_img {
+  /* padding-top: 30px; */
+  width: 800px;
+  height: 500px;
+  background-image: url('./About/Explore/partners1-.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* projects css */
+.pro_img1 {
+  width: 500px;
+  height: 300px;
+  background-image: url('./Projects/pro_img\ \(10\).jpg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  border: 3px solid rgb(2, 2, 2);
+  transition: all ease 400ms;
+}
+
+.pro_img1:hover {
+  background-position: center;
+  transform: scale(1.2);
+}
+
+.pro_img2 {
+  width: 500px;
+  height: 300px;
+  background-image: url('./Projects/pro_img\ \(3\).jpg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  border: 3px solid rgb(2, 2, 2);
+  transition: all ease 400ms;
+}
+
+.pro_img2:hover {
+  background-position: center;
+  transform: scale(1.2);
+}
+
+.pro_img3 {
+  width: 500px;
+  height: 300px;
+  background-image: url('./Projects/pro_img\ \(4\).jpg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  border: 3px solid rgb(2, 2, 2);
+  transition: all ease 400ms;
+}
+
+.pro_img3:hover {
+  background-position: center;
+  transform: scale(1.2);
+}
+
+.pro_img4 {
+  width: 500px;
+  height: 300px;
+  background-image: url('./Projects/pro_img\ \(5\).jpg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  border: 3px solid rgb(2, 2, 2);
+  transition: all ease 400ms;
+}
+
+.pro_img4:hover {
+  background-position: center;
+  transform: scale(1.2);
+}
+
+.pro_img5 {
+  width: 500px;
+  height: 300px;
+  background-image: url('./Projects/pro_img\ \(6\).jpg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  border: 3px solid rgb(2, 2, 2);
+  transition: all ease 400ms;
+}
+
+.pro_img5:hover {
+  background-position: center;
+  transform: scale(1.2);
+}
+
+.pro_img6 {
+  width: 500px;
+  height: 300px;
+  background-image: url('./Projects/pro_img\ \(7\).jpg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  border: 3px solid rgb(2, 2, 2);
+  transition: all ease 400ms;
+}
+
+.pro_img6:hover {
+  background-position: center;
+  transform: scale(1.2);
+}
+
+.pro_img7 {
+  width: 500px;
+  height: 300px;
+  background-image: url('./Projects/pro_img\ \(8\).jpg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  border: 3px solid rgb(2, 2, 2);
+  transition: all ease 400ms;
+}
+
+.pro_img7:hover {
+  background-position: center;
+  transform: scale(1.2);
+}
+
+.pro_img8 {
+  width: 500px;
+  height: 300px;
+  background-image: url('./Projects/pro_img\ \(9\).jpg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  border: 3px solid rgb(2, 2, 2);
+  transition: all ease 400ms;
+}
+
+.pro_img8:hover {
+  background-position: center;
+  transform: scale(1.2);
+}
+.pro_img9 {
+  width: 500px;
+  height: 300px;
+  background-image: url('./Projects/pro_img\ \(1\).jpg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  border: 3px solid rgb(2, 2, 2);
+  transition: all ease 400ms;
+}
+
+.pro_img9:hover {
+  background-position: center;
+  transform: scale(1.2);
+}
+
+.table_side_btn{
+  width: 350px;
+  margin-left: 60px;
+  height: 55px;
+  border: 3px solid #65A30D;
+  border-radius: 13px;
+
+}
+
+.table_side_btn:hover {
+  background-color: #65A30D;
+  color: white;
+}
+/* Project deatils CSS */
+
+.table_img_1{
+  width: 100%;
+  height: 800px;
+  background-image: url('./Projects/Details/projects_accomplishments_1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.table_img_2{
+  width: 100%;
+  height: 800px;
+  background-image: url('./Projects/Details/projects_accomplishments_2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+/* Contact CSS */
+
+.contact_hero{
+  width: 100%;
+  height: 600px;
+ 
+  background-image: linear-gradient(to right, rgba(14, 13, 13, 0.395), rgba(15, 16, 15, 0.523), rgba(3, 3, 3, 0.381)), url('./Contact/contact\ us.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#image1 {
+  width: 80px;
+  height: 80px;
+  background-image: url('./Contact/1chairman.jpg');
+  background-position: start;
+  background-repeat: no-repeat;
+}
+
+#image2 {
+  width: 80px;
+  height: 80px;
+  background-image: url(./Contact/2Head\ of\ Program.jpg);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+
+#image6 {
+  width: 80px;
+  height: 80px;
+  background-image: url(./Contact/6Technical\ Advisior.jpg);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+
+#image4 {
+  width: 80px;
+  height: 80px;
+  background-image: url(./Contact/4legal\ Advisor.jpg);
+  background-position: start;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image5 {
+  width: 80px;
+  height: 80px;
+  background-image: url(./Contact/5Manager\ HR.jpg);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+
+#image3 {
+  width: 80px;
+  height: 80px;
+  background-image: url(./Contact/8.Finance\ Manager.jpg);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+
+#image7 {
+  width: 80px;
+  height: 80px;
+  background-image: url(./Contact/7program\ manager\ Baluchistan.jpg);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+
+#image8 {
+  width: 80px;
+  height: 80px;
+  background-image: url(./Contact/3Project\ Co-coordinator.jpg);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+
+#image9 {
+  width: 80px;
+  height: 80px;
+  background-image: url(./Contact/9Administrative\ officer.jpg);
+  background-position: start;
+  background-repeat: no-repeat;
+}
+
+#image10 {
+  width: 80px;
+  height: 80px;
+  background-image: url(./Contact/10Liaison.jpg);
+  background-position: start;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
